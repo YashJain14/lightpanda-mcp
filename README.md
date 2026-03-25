@@ -127,7 +127,10 @@ Lightpanda is a lightweight headless browser built in Zig, designed for:
 - Native MCP support
 - Built-in browser automation tools
 
-Learn more at [lightpanda.io](https://lightpanda.io)
+Learn more:
+- Website: [lightpanda.io](https://lightpanda.io)
+- Installation docs: [lightpanda.io/docs/open-source/installation](https://lightpanda.io/docs/open-source/installation)
+- GitHub: [github.com/lightpanda-io/browser](https://github.com/lightpanda-io/browser)
 
 ## License
 
