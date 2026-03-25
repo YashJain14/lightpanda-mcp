@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 
-const { execSync } = require('child_process');
 const fs = require('fs');
 const path = require('path');
 const https = require('https');
@@ -16,7 +15,7 @@ function getPlatform() {
   if (platform === 'darwin') {
     return arch === 'arm64' ? 'lightpanda-aarch64-macos' : 'lightpanda-x86_64-macos';
   } else if (platform === 'linux') {
-    return arch === 'arm64' ? 'lightpanda-aarch64-linux' : 'lightpanda-x86_64-linux';
+    return (arch === 'arm64' || arch === 'aarch64') ? 'lightpanda-aarch64-linux' : 'lightpanda-x86_64-linux';
   } else if (platform === 'win32') {
     throw new Error('Windows is not supported yet. Please use WSL2.');
   } else {
