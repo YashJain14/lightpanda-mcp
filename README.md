@@ -11,10 +11,6 @@ MCP (Model Context Protocol) server wrapper for [Lightpanda](https://lightpanda.
 
 ## Installation
 
-### For Jan Users
-
-Enable "Lightpanda Browser" in Jan Settings → MCP Servers. Jan will automatically install this package via npx.
-
 ### Manual Installation
 
 ```bash
