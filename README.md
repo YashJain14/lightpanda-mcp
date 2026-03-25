@@ -18,7 +18,7 @@ Enable "Lightpanda Browser" in Jan Settings → MCP Servers. Jan will automatica
 ### Manual Installation
 
 ```bash
-npx lightpanda-mcp-server
+npx lightpanda-mcp
 ```
 
 The first run will download the Lightpanda binary (~60-110MB depending on platform).
@@ -55,7 +55,7 @@ Configure your MCP client to use:
   "mcpServers": {
     "lightpanda": {
       "command": "npx",
-      "args": ["-y", "lightpanda-mcp-server"]
+      "args": ["-y", "lightpanda-mcp"]
     }
   }
 }
@@ -65,10 +65,10 @@ Configure your MCP client to use:
 
 ```bash
 # Start the MCP server
-npx lightpanda-mcp-server
+npx lightpanda-mcp
 
 # In another terminal, send MCP commands via stdin
-echo '{"jsonrpc":"2.0","id":1,"method":"tools/list"}' | npx lightpanda-mcp-server
+echo '{"jsonrpc":"2.0","id":1,"method":"tools/list"}' | npx lightpanda-mcp
 ```
 
 ## Platform Support
@@ -112,11 +112,11 @@ lightpanda mcp
 
 ### Binary not found after installation
 
-The binary is stored in `node_modules/lightpanda-mcp-server/bin/lightpanda`. If npx can't find it, try:
+The binary is stored in `node_modules/lightpanda-mcp/bin/lightpanda`. If npx can't find it, try:
 
 ```bash
-npm install -g lightpanda-mcp-server
-lightpanda-mcp-server
+npm install -g lightpanda-mcp
+lightpanda-mcp
 ```
 
 ## About Lightpanda
@@ -135,4 +135,4 @@ MIT
 
 ## Contributing
 
-Issues and PRs welcome at [github.com/YashJain14/lightpanda-mcp-server](https://github.com/YashJain14/lightpanda-mcp-server)
+Issues and PRs welcome at [github.com/YashJain14/lightpanda-mcp](https://github.com/YashJain14/lightpanda-mcp)

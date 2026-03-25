@@ -1,10 +1,10 @@
 {
-  "name": "lightpanda-mcp-server",
+  "name": "lightpanda-mcp",
   "version": "1.0.0",
   "description": "MCP server wrapper for Lightpanda browser automation",
   "main": "index.js",
   "bin": {
-    "lightpanda-mcp-server": "./index.js"
+    "lightpanda-mcp": "./index.js"
   },
   "scripts": {
     "test": "node index.js"
@@ -21,10 +21,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/YashJain14/lightpanda-mcp-server.git"
+    "url": "https://github.com/YashJain14/lightpanda-mcp.git"
   },
   "engines": {
     "node": ">=18.0.0"
-  },
-  "dependencies": {}
+  }
 }
