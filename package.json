@@ -1,0 +1,30 @@
+{
+  "name": "lightpanda-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server wrapper for Lightpanda browser automation",
+  "main": "index.js",
+  "bin": {
+    "lightpanda-mcp-server": "./index.js"
+  },
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "lightpanda",
+    "browser",
+    "automation",
+    "headless-browser"
+  ],
+  "author": "Yash Jain",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YashJain14/lightpanda-mcp-server.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {}
+}
